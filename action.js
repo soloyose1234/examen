@@ -5,7 +5,7 @@ $("#Entrada").click(function() {
 	if ($("#usuario").val() == "denis" && $("#contraseña").val() =='25'){
 		logueado = true;
 		if(logueado==true){
-			window.location="./page/inicio.html"
+			window.location="inicio.html"
 		}	
 	}
     else{ 
@@ -13,17 +13,17 @@ $("#Entrada").click(function() {
     } 
 });
 $('#galeria').click(function(){
-	window.location='../page/galeria.html';
+	window.location='galeria.html';
 });
 $('#prueba').click(function(){
-	window.location='../page/prueba.html';
+	window.location='prueba.html';
 });
 
 $('#Salir').click(function(){
-	window.location='../INDEX.html';
+	window.location='INDEX.html';
 });
 $('#PDF').click(function(){
-	window.location='../page/PDF.html'
+	window.location='PDF.html'
 });
 
 window.addEventListener('load',function(){
